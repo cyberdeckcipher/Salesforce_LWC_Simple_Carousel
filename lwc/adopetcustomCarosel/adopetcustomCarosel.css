@@ -1,0 +1,65 @@
+.container{
+    display: inline-block;
+    margin: auto;
+}
+
+img{
+    max-width:450px;
+}
+
+.containerWrapper{
+    margin: 10px;
+}
+
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #8a8a8a59;
+    font-weight: 700;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.next{
+    right: 0;
+    border-radius: 5px 0 0 5px ;
+}
+
+.prev:hover, .next:hover{
+    background-color: #8a8a8aE6;
+}
+
+.dotWapper{
+    display: block;
+    height: 20px;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.dotActive, .doctInactive {
+    display: inline-block;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.dotActive{
+    background-color:#8a8a8a;
+}
+
+.doctInactive {
+    background-color:gainsboro;
+}
+
+.dotActive:hover, .doctInactive:hover {
+    background-color:#8a8a8a59;
+}
